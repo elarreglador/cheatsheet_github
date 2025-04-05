@@ -1,6 +1,3 @@
-# Git cheatsheet
-Gia de referencia rapida para trabajar con git y github
-
 ## PLANTILLA COMITS
 
 <table border="1">
