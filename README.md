@@ -57,6 +57,10 @@
   </tr>
 </table>
 
+### AGREGA ANOTACION DE VERSION AL ULTIMO COMMIT
+```bash
+VERSION="v0.1.0"; git tag -a $VERSION -m " $VERSION 🔖" && git push origin $VERSION
+```
 
 ## VERSIONADO: vX.Y.Z🔖
 
@@ -67,12 +71,6 @@ Major (X) – Cambios incompatibles: Se incrementa cuando haces cambios que romp
 Minor (Y) – Nuevas funcionalidades compatibles: Se incrementa cuando agregas nuevas funciones o mejoras, pero sin romper lo que ya existía.
 
 Patch (Z) – Corrección de errores o mejoras menores:Se incrementa cuando haces correcciones, mejoras internas o ajustes, pero sin agregar ni quitar funcionalidades públicas.
-
-
-### AGREGA ANOTACION DE VERSION AL ULTIMO COMMIT
-```bash
-VERSION="v0.1.0"; git tag -a $VERSION -m " $VERSION 🔖" && git push origin $VERSION
-```
 
 ## Comandos Básicos git
 
