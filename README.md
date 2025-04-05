@@ -108,7 +108,7 @@ OTROS
 ```bash
 git log --oneline --graph --decorate --all --color     # Historial de commits
 git diff                                               # Muestra cambios sin commitear
-git reset --hard HEAD                                  # Revierte al último commit sin guardar nada
+git reset --hard HEAD                                  # Revierte al último commit sin guardar
 ```
 
 NUEVO REPOSITORIO
