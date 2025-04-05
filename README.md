@@ -38,7 +38,7 @@ Gia de referencia rapida para trabajar con git y github
     <td></td>
   </tr>
   <tr>
-    <td colspan="3"><b>*** ARCHIVOS ***</b></td>
+    <td colspan="3"><b>ARCHIVOS</b></td>
   </tr>
   <tr>
     <td>🔤 Cambio de nombre:</td>
@@ -74,7 +74,7 @@ Patch (Z) – Corrección de errores o mejoras menores:Se incrementa cuando hace
 
 ### AGREGA ANOTACION DE VERSION AL ULTIMO COMMIT
 ```bash
-VERSION="v0.1.0"; git tag -a $VERSION -m "🔖 Nueva version $VERSION" && git push origin $VERSION
+VERSION="v0.1.0"; git tag -a $VERSION -m " $VERSION 🔖" && git push origin $VERSION
 ```
 
 ## Comandos Básicos git
