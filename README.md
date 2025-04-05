@@ -73,8 +73,9 @@ Patch (Z) – Corrección de errores o mejoras menores:Se incrementa cuando hace
 
 
 ### AGREGA ANOTACION DE VERSION AL ULTIMO COMMIT
-
+```bash
 VERSION="v0.1.0"; git tag -a $VERSION -m "🔖 Nueva version $VERSION" && git push origin $VERSION
+```
 
 ## Comandos Básicos git
 
