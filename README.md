@@ -61,7 +61,7 @@ Gia de referencia rapida para trabajar con git y github
 </table>
 
 
-## VERSIONADO: vX.Y.Z
+## VERSIONADO: vX.Y.Z🔖
 
 Cada número tiene un propósito específico:
 
@@ -80,44 +80,44 @@ VERSION="v0.1.0"; git tag -a $VERSION -m "🔖 Nueva version $VERSION" && git pu
 ## Comandos Básicos git
 
 ```bash
-git init                                               # Inicializa un nuevo repositorio Git
-git clone <url>                                        # Clona un repositorio remoto
-git status                                             # Muestra el estado del repositorio
-git add <archivo>                                      # Añade un archivo al área de staging
-git commit -m "mensaje"                                # Crea un commit con mensaje
+git init                                            # Inicializa un nuevo repositorio Git
+git clone <url>                                     # Clona un repositorio remoto
+git status                                          # Muestra el estado del repositorio
+git add <archivo>                                   # Añade un archivo al área de staging
+git commit -m "mensaje"                             # Crea un commit con mensaje
 ```
 
 RAMAS
 
 ```bash
-git branch                                             # Lista las ramas
-git branch <nombre>                                    # Crea una nueva rama
-git checkout <rama>                                    # Cambia de rama
-git merge <rama>                                       # Fusiona una rama con la actual
+git branch                                          # Lista las ramas
+git branch <nombre>                                 # Crea una nueva rama
+git checkout <rama>                                 # Cambia de rama
+git merge <rama>                                    # Fusiona una rama con la actual
 ```
 
 REMOTO
 
 ```bash
-git remote -v                                          # Lista los repositorios remotos
-git push origin <rama>                                 # Envía los cambios al remoto
-git pull origin <rama>                                 # Trae los últimos cambios del remoto
+git remote -v                                       # Lista los repositorios remotos
+git push origin <rama>                              # Envía los cambios al remoto
+git pull origin <rama>                              # Trae los últimos cambios del remoto
 ```
 
 OTROS
 
 ```bash
-git log --oneline --graph --decorate --all --color     # Historial de commits
-git diff                                               # Muestra cambios sin commitear
-git reset --hard HEAD                                  # Revierte al último commit sin guardar
+git log --oneline --graph --decorate --all --color  # Historial de commits
+git diff                                            # Muestra cambios sin commitear
+git reset --hard HEAD                               # Revierte al último commit sin guardar
 ```
 
 NUEVO REPOSITORIO
 ```bash
-git init                                               # Genera directorio .git
-git add . && git commit -m "🎉 Primer commit!"         # Prepara el primer commit
-git branch -M main                                     # Renombra la rama actual a main
-git remote add origin <RUTA_REPOSITORIO.git>           # Indica el origin del proyecto
-git push -u origin main                                # Sube el commit
+git init                                            # Genera directorio .git
+git add . && git commit -m "🎉 Primer commit!"      # Prepara el primer commit
+git branch -M main                                  # Renombra la rama actual a main
+git remote add origin <RUTA_REPOSITORIO.git>        # Indica el origin del proyecto
+git push -u origin main                             # Sube el commit
 ```
 
