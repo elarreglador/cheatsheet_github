@@ -55,6 +55,11 @@
     <td>🏗️ Arquitectura:</td>
     <td>📸 Screenshots:</td>
   </tr>
+  <tr>
+    <td>🔖 Nueva version:</td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
 ### AGREGA ANOTACION DE VERSION AL ULTIMO COMMIT
