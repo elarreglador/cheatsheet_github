@@ -60,24 +60,6 @@
     <td></td>
     <td></td>
   </tr>
-  <tr>
-    <td colspan="3"><b>GIT Y GITHUB</b></td>
-  </tr>
-  <tr>
-    <td>➖⚫➖(⎇➕⎇) Commit previo a fusion de rama:</td>
-    <td>➖⚫➖⎇ Commit previo a Feature branching:</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>(⎇➕⎇)➖⚫➖ Primer commit tras fusion de rama:</td>
-    <td>⎇➖⚫➖ Primer commit tras Feature branching:</td>
-    <td></td>
-  </tr>
-    <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
 
 ### AGREGA ANOTACION DE VERSION AL ULTIMO COMMIT
@@ -99,17 +81,17 @@ Patch (Z) – Corrección de errores o mejoras menores:Se incrementa cuando hace
 
 Crear nueva rama
 ```bash
-echo " " >> ./README.md ; git add . ; git commit -m "➖⚫➖⎇ Commit previo a Feature branching: XXX" ; git push
+echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Previo Feature branching: XXX" ; git push
 git checkout -b feature/XXX
-echo " " >> ./README.md ; git add . ; git commit -m "⎇➖⚫➖ Primer commit tras Feature branching:" ; git push
+echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Inicio Feature branching:" ; git push
 ```
 al finalizar la tarea volvemos a integrar la rama
 ```bash
-echo " " >> ./README.md ; git add . ; git commit -m "➖⚫➖(⎇➕⎇) Commit previo a fusion de rama"
+echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Previo a merge de rama"
 git checkout main #Regresamos a la rama main
 git pull origin main #Actualizamos main
 git merge feature/XXX
-echo " " >> ./README.md ; git add . ; git commit -m "(⎇➕⎇)➖⚫➖ Primer commit tras fusion de rama"
+echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Primer commit tras merge"
 ```
 Opcionalmente podemos borrar la rama de feature en local y remoto
 ```bash
