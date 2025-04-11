@@ -81,17 +81,17 @@ Patch (Z) – Corrección de errores o mejoras menores:Se incrementa cuando hace
 
 Crear nueva rama
 ```bash
-echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Previo Feature branching: XXX" ; git push
+echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Previo feature/XXX" ; git push
 git checkout -b feature/XXX
-echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Inicio Feature branching:" ; git push
+echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Inicio feature/XXX" ; git push
 ```
 al finalizar la tarea volvemos a integrar la rama
 ```bash
-echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Previo a merge de rama"
+echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Previo a merge de feature/XXX"
 git checkout main #Regresamos a la rama main
 git pull origin main #Actualizamos main
 git merge feature/XXX
-echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Primer commit tras merge"
+echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Finalizado merge feature/XXX"
 ```
 Opcionalmente podemos borrar la rama de feature en local y remoto
 ```bash
