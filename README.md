@@ -105,11 +105,11 @@ echo " " >> ./README.md ; git add . ; git commit -m "⎇➖⚫➖ Primer commit 
 ```
 al finalizar la tarea volvemos a integrar la rama
 ```bash
-git add . ; git commit -m "➖⚫➖(⎇➕⎇) Commit previo a fusion de rama"
+echo " " >> ./README.md ; git add . ; git commit -m "➖⚫➖(⎇➕⎇) Commit previo a fusion de rama"
 git checkout main #Regresamos a la rama main
 git pull origin main #Actualizamos main
 git merge feature/XXX
-git add . ; git commit -m "(⎇➕⎇)➖⚫➖ Primer commit tras fusion de rama"
+echo " " >> ./README.md ; git add . ; git commit -m "(⎇➕⎇)➖⚫➖ Primer commit tras fusion de rama"
 ```
 Opcionalmente podemos borrar la rama de feature en local y remoto
 ```bash
