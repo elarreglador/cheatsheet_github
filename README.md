@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td>🔍 Tests de funcionamiento:</td>
-    <td></td>
+    <td>🎉 Compila sin errores!!</td>
     <td></td>
   </tr>
   <tr>
