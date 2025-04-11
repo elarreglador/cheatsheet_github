@@ -95,6 +95,28 @@ Minor (Y) – Nuevas funcionalidades compatibles: Se incrementa cuando agregas n
 
 Patch (Z) – Corrección de errores o mejoras menores:Se incrementa cuando haces correcciones, mejoras internas o ajustes, pero sin agregar ni quitar funcionalidades públicas.
 
+## CREAR RAMA PARA FUNCIONALIDAD / CERRAR RAMA PARA FUNCIONALIDAD
+
+Crear nueva rama
+```bash
+git add . ; git commit -m "➖⚫➖⎇ Commit previo a Feature branching: XXX"
+git checkout -b feature/XXX
+git commit -m "⎇➖⚫➖ Primer commit tras Feature branching:"
+```
+al finalizar la tarea volvemos a integrar la rama
+```bash
+git add . ; git commit -m "➖⚫➖(⎇➕⎇) Commit previo a fusion de rama"
+git checkout main #Regresamos a la rama main
+git pull origin main #Actualizamos main
+git merge feature/XXX
+git add . ; git commit -m "(⎇➕⎇)➖⚫➖ Primer commit tras fusion de rama"
+```
+Opcionalmente podemos borrar la rama de feature en local y remoto
+```bash
+git branch -d feature/tu-nombre-de-rama
+git push origin --delete feature/tu-nombre-de-rama
+```
+
 ## GIT LOG PERSONALIZADO
 ```bash
 nano ~/.bashrc
