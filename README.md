@@ -95,7 +95,27 @@ Minor (Y) – Nuevas funcionalidades compatibles: Se incrementa cuando agregas n
 
 Patch (Z) – Corrección de errores o mejoras menores:Se incrementa cuando haces correcciones, mejoras internas o ajustes, pero sin agregar ni quitar funcionalidades públicas.
 
-## Comandos Básicos git
+## GIT LOG PERSONALIZADO
+```bash
+nano ~/.bashrc
+   # Git log personalizado
+   alias git-log="git log --graph --all --decorate --pretty=format:'%C(auto)%h%Creset [%an | %ad] %d %s' --date=short"
+   alias gitlog="git-log"  # opcional: atajo más corto
+   alias git='f() { if [ "$1" = "log" ]; then shift; git log --graph --all --decorate --pretty=format:"%C(auto)%h%Creset [%an | %ad] %d %s" --date=short "$@"; else command git "$@"; fi }; f'
+source ~/.bashrc
+```
+El resultado se vera similar a esto:
+```bash
+*   aeb127e [David Moreno | 2025-04-11]  (HEAD -> main, origin/main) Merge commit '3732b92'
+|\  
+| * 3732b92 [David Moreno | 2025-04-11]  🏗️ Arquitectura: Retiro git de los components (vendorizado)
+* | c7333bf [David Moreno | 2025-04-10]  Actualizar puntero de lvgl
+|/  
+* 79d83b2 [David Moreno | 2025-04-10]  Creo un reloj no sincronizado
+* e8cf7fd [David Moreno | 2025-04-09]  Agregados estilos titulo2, texto1 y texto2
+```
+
+## COMANDOS BASICOS GIT
 
 ```bash
 git init                                            # Inicializa un nuevo repositorio Git
