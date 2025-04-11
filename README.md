@@ -60,6 +60,24 @@
     <td></td>
     <td></td>
   </tr>
+  <tr>
+    <td colspan="3"><b>GIT Y GITHUB</b></td>
+  </tr>
+  <tr>
+    <td>➖⚫➖(⎇➕⎇) Commit previo a fusion de rama:</td>
+    <td>➖⚫➖⎇ Commit previo a Feature branching:</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>(⎇➕⎇)➖⚫➖ Primer commit tras fusion de rama:</td>
+    <td>⎇➖⚫➖ Primer commit tras Feature branching:</td>
+    <td></td>
+  </tr>
+    <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
 ### AGREGA ANOTACION DE VERSION AL ULTIMO COMMIT
