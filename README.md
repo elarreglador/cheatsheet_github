@@ -99,9 +99,9 @@ Patch (Z) – Corrección de errores o mejoras menores:Se incrementa cuando hace
 
 Crear nueva rama
 ```bash
-git add . ; git commit -m "➖⚫➖⎇ Commit previo a Feature branching: XXX"
+echo " " >> ./README.md ; git add . ; git commit -m "➖⚫➖⎇ Commit previo a Feature branching: XXX" ; git push
 git checkout -b feature/XXX
-git commit -m "⎇➖⚫➖ Primer commit tras Feature branching:"
+echo " " >> ./README.md ; git add . ; git commit -m "⎇➖⚫➖ Primer commit tras Feature branching:" ; git push
 ```
 al finalizar la tarea volvemos a integrar la rama
 ```bash
