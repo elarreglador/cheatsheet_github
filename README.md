@@ -99,6 +99,13 @@ git branch -d feature/tu-nombre-de-rama
 git push origin --delete feature/tu-nombre-de-rama
 ```
 
+## DESHACER COMMIT CONSERVANDO CAMBIOS
+```bash
+git reset --soft HEAD~1  # Revierte el commit pero conserva los archivos
+git push origin main --force # Reemplaza el commit remoto
+git push origin feature/XXX --force-with-lease # Sincroniza rama remota con la local
+```
+
 ## GIT LOG PERSONALIZADO
 ```bash
 nano ~/.bashrc
