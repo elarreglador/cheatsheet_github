@@ -79,7 +79,7 @@ Patch (Z) – Corrección de errores o mejoras menores:Se incrementa cuando hace
 
 ## CREAR RAMA PARA FUNCIONALIDAD / CERRAR RAMA PARA FUNCIONALIDAD
 
-Crear nueva rama
+Crear nueva rama de tipo feature/XXX , hotfix/XXX , fix/XXX , etc...
 ```bash
 echo " " >> ./README.md ; git add . ; git commit -m "(⎇) Previo feature/XXX" ; git push
 git checkout -b feature/XXX
