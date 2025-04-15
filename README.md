@@ -106,6 +106,26 @@ git push origin main --force # Reemplaza el commit remoto
 git push origin feature/XXX --force-with-lease # Sincroniza rama remota con la local
 ```
 
+## CAPTURAS DE PANTALLA EN README.md
+
+<table>
+  <tr>
+    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/HomeScreen.png?raw=true" alt="HomeScreen" width="200" title="HomeScreen"></td>
+    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/AuthorListViewScreen.png?raw=true" alt="AuthorListViewScreen" width="200" title="AuthorListViewScreen"></td>
+    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/AuthorAddScreen.png?raw=true" alt="AuthorAddScreen" width="200" title="AuthorAddScreen"></td>
+  </tr>
+</table>
+
+```
+<table>
+  <tr>
+    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/HomeScreen.png?raw=true" alt="HomeScreen" width="200" title="HomeScreen"></td>
+    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/AuthorListViewScreen.png?raw=true" alt="AuthorListViewScreen" width="200" title="AuthorListViewScreen"></td>
+    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/AuthorAddScreen.png?raw=true" alt="AuthorAddScreen" width="200" title="AuthorAddScreen"></td>
+  </tr>
+</table>
+```
+
 ## GIT LOG PERSONALIZADO
 ```bash
 nano ~/.bashrc
