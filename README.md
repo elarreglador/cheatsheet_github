@@ -106,6 +106,39 @@ git push origin main --force # Reemplaza el commit remoto
 git push origin feature/XXX --force-with-lease # Sincroniza rama remota con la local
 ```
 
+## OPCIONES DEL TEXTO
+
+**negrita**
+```
+**negrita**
+```
+*cursiva*
+```
+*cursiva*
+```
+***negrita cursiva***
+```
+***negrita cursiva***
+```
+~~tachado~~
+```
+~~tachado~~
+```
+`código en línea`
+```
+`código en línea`
+```
+> Esto es una cita
+```
+> Esto es una cita
+```
+
+[Texto del enlace](http://ejemplo.com)
+```
+[Texto del enlace](http://ejemplo.com)
+```
+
+
 ## CAPTURAS DE PANTALLA EN README.md
 
 <table>
