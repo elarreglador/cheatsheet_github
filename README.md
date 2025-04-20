@@ -6,7 +6,7 @@
   </tr>
   <tr>
     <td>🎉 Primer commit!</td>
-    <td>📷 Multimedia:</td>
+    <td>🎉 Compila sin errores!!</td>
     <td>🐞 Bug corregido:</td>
   </tr>
   <tr>
@@ -31,8 +31,8 @@
   </tr>
   <tr>
     <td>🔍 Tests de funcionamiento:</td>
-    <td>🎉 Compila sin errores!!</td>
-    <td></td>
+    <td>📷 Multimedia:</td>
+    <td>📱 pantalla/vista/pagina:</td>
   </tr>
   <tr>
     <td colspan="3"><b>ARCHIVOS</b></td>
