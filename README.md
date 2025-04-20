@@ -40,7 +40,7 @@
   <tr>
     <td>🔤 Cambio de nombre:</td>
     <td>🟠 Postman export:</td>
-    <td></td>
+    <td>📂 Estructura de archivos: </td>
   </tr>
   <tr>
     <td colspan="3"><b>DOCUMENTACION Y REVISION</b></td>
