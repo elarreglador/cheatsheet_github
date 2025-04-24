@@ -106,6 +106,11 @@ git push origin main --force # Reemplaza el commit remoto
 git push origin feature/XXX --force-with-lease # Sincroniza rama remota con la local
 ```
 
+## AGREGAR CAMBIOS AL ULTIMO COMMIT
+```bash
+git add . ; git commit --amend --no-edit ; git push --force
+```
+
 ## OPCIONES DEL TEXTO
 
 **negrita**
