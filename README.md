@@ -35,12 +35,17 @@
     <td>📱 pantalla/vista/pagina:</td>
   </tr>
   <tr>
+      <td>🔴 Node-red export:</td>
+      <td>🟠 Postman export:</td>
+      <td></td>
+  </tr>
+  <tr>
     <td colspan="3"><b>ARCHIVOS</b></td>
   </tr>
   <tr>
     <td>🔤 Cambio de nombre:</td>
-    <td>🟠 Postman export:</td>
     <td>📂 Estructura de archivos: </td>
+    <td></td>
   </tr>
   <tr>
     <td colspan="3"><b>DOCUMENTACION Y REVISION</b></td>
@@ -57,7 +62,6 @@
   </tr>
   <tr>
     <td>🔖 Nueva version:</td>
-    <td></td>
     <td></td>
   </tr>
 </table>
