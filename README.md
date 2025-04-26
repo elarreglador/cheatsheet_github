@@ -35,8 +35,16 @@
     <td>📱 pantalla/vista/pagina:</td>
   </tr>
   <tr>
-      <td>🔴 Node-red export:</td>
+      <td>🛡️ Seguridad:</td>
+      <td></td>
+      <td></td>
+  </tr>
+  <tr>
+    <td colspan="3"><b>HERRAMIENTAS EXTERNAS</b></td>
+  </tr>
+    <tr>
       <td>🟠 Postman export:</td>
+      <td>🔴 Node-red export:</td>
       <td></td>
   </tr>
   <tr>
