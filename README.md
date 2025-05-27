@@ -36,7 +36,7 @@
   </tr>
   <tr>
       <td>🛡️ Seguridad:</td>
-      <td></td>
+      <td>📡 Comunic.:</td>
       <td></td>
   </tr>
   <tr>
