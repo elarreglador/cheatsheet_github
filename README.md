@@ -37,7 +37,7 @@
   <tr>
       <td>🛡️ Seguridad:</td>
       <td>📡 Comunic.:</td>
-      <td></td>
+      <td>〰️ Data flow:</td>
   </tr>
   <tr>
     <td colspan="3"><b>HERRAMIENTAS EXTERNAS</b></td>
