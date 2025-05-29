@@ -40,7 +40,7 @@
       <td>〰️ Data flow:</td>
   </tr>
   <tr>
-      <td>⚡ Eventos:</td>
+      <td>⚡Eventos:</td>
       <td></td>
       <td></td>
   </tr>
