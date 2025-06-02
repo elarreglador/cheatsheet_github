@@ -184,21 +184,30 @@ git add . ; git commit --amend --no-edit ; git push --force
 ## GIT LOG PERSONALIZADO
 ```bash
 nano ~/.bashrc
-   # Git log personalizado
-   alias git-log="git log --graph --all --decorate --pretty=format:'%C(auto)%h%Creset [%an | %ad] %d %s' --date=short"
-   alias gitlog="git-log"  # opcional: atajo más corto
-   alias git='f() { if [ "$1" = "log" ]; then shift; git log --graph --all --decorate --pretty=format:"%C(auto)%h%Creset [%an | %ad] %d %s" --date=short "$@"; else command git "$@"; fi }; f'
+
+    # Git log personalizado
+    alias git-log="git log --graph --all --decorate --pretty=format:'%C(auto)%h%Creset %C(green)[%an | %ad]%Creset %C(yellow)%d%Creset %s' --date=short"
+    alias gitlog="git-log" # opcional: atajo más corto
+    alias git='f() { if [ "$1" = "log" ]; then shift; git log --graph --all --decorate --pretty=format:"%C(auto)%h%Creset %C(green)[%an | %ad]%Creset %C(yellow)%d%Creset %s" --date=short "$@"; else command git "$@"; fi }; f'
+
 source ~/.bashrc
 ```
 El resultado se vera similar a esto:
 ```bash
-*   aeb127e [David Moreno | 2025-04-11]  (HEAD -> main, origin/main) Merge commit '3732b92'
+*   beb4c62 [David Moreno | 2025-05-29]  ⚡Eventos: Se inician tareas de deteccion de eventos en room_logic_task
 |\  
-| * 3732b92 [David Moreno | 2025-04-11]  🏗️ Arquitectura: Retiro git de los components (vendorizado)
-* | c7333bf [David Moreno | 2025-04-10]  Actualizar puntero de lvgl
+| * 81d2b9a [David Moreno | 2025-05-28]  (origin/feature/events, feature/events) ⚡Eventos: pantalla lvgl genera eventos en event_bus
+| *   de6d7ca [David Moreno | 2025-05-27]  Merge branch 'feature/lvgl' into develop
+| |\  
+| | * b1a8f46 [David Moreno | 2025-05-26]  (origin/feature/lvgl, feature/lvgl) ✨ Cambio menor: Finalizado comportamiento esperado para botones y sliders
+| | * a037753 [David Moreno | 2025-05-23]  🎨 Mejora estética: Aplicados colores diferentes a cada elemento
+| * | 6855757 [David Moreno | 2025-05-27]  (origin/feature/mqtt, feature/mqtt) 📑 Recursos:     Disponemos de los valores recibidos en el JSON como variables locales
+* | | bd64750 [David Moreno | 2025-05-28]  Importado event_bus de rama events
+* | | b09486c [David Moreno | 2025-05-28]  📚 Documentación: Comentado codigo
+|/ /  
+* / 0fb4380 [Your Name | 2025-05-26]  Feat: mqtt basic helow world connection
 |/  
-* 79d83b2 [David Moreno | 2025-04-10]  Creo un reloj no sincronizado
-* e8cf7fd [David Moreno | 2025-04-09]  Agregados estilos titulo2, texto1 y texto2
+* affd673 [David Moreno | 2025-05-22]  🎨 Mejora estética: Reorganizadas tarjetas a falta de centrado vertical
 ```
 
 ## COMANDOS BASICOS GIT
