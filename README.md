@@ -128,59 +128,6 @@ git push origin feature/XXX --force-with-lease # Sincroniza rama remota con la l
 git add . ; git commit --amend --no-edit ; git push --force
 ```
 
-## OPCIONES DEL TEXTO
-
-**negrita**
-```
-**negrita**
-```
-*cursiva*
-```
-*cursiva*
-```
-***negrita cursiva***
-```
-***negrita cursiva***
-```
-~~tachado~~
-```
-~~tachado~~
-```
-`código en línea`
-```
-`código en línea`
-```
-> Esto es una cita
-```
-> Esto es una cita
-```
-
-[Texto del enlace](http://ejemplo.com)
-```
-[Texto del enlace](http://ejemplo.com)
-```
-
-
-## CAPTURAS DE PANTALLA EN README.md
-
-<table>
-  <tr>
-    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/HomeScreen.png?raw=true" alt="HomeScreen" width="200" title="HomeScreen"></td>
-    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/AuthorListViewScreen.png?raw=true" alt="AuthorListViewScreen" width="200" title="AuthorListViewScreen"></td>
-    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/AuthorAddScreen.png?raw=true" alt="AuthorAddScreen" width="200" title="AuthorAddScreen"></td>
-  </tr>
-</table>
-
-```
-<table>
-  <tr>
-    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/HomeScreen.png?raw=true" alt="HomeScreen" width="200" title="HomeScreen"></td>
-    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/AuthorListViewScreen.png?raw=true" alt="AuthorListViewScreen" width="200" title="AuthorListViewScreen"></td>
-    <td><img src="https://github.com/elarreglador/PMM_Room/blob/main/SCREENSHOTS/AuthorAddScreen.png?raw=true" alt="AuthorAddScreen" width="200" title="AuthorAddScreen"></td>
-  </tr>
-</table>
-```
-
 ## GIT LOG PERSONALIZADO
 ```bash
 nano ~/.bashrc
