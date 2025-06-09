@@ -35,13 +35,13 @@
     <td>📱 pantalla/vista/pagina:</td>
   </tr>
   <tr>
-      <td>🛡️ Seguridad:</td>
       <td>📡 Comunic.:</td>
+      <td>🌐 Network:</td>
       <td>〰️ Data flow:</td>
   </tr>
   <tr>
       <td>⚡Eventos:</td>
-      <td></td>
+      <td>🛡️ Seguridad:</td>
       <td></td>
   </tr>
   <tr>
