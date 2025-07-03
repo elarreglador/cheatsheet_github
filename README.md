@@ -157,6 +157,13 @@ El resultado se vera similar a esto:
 * affd673 [David Moreno | 2025-05-22]  🎨 Mejora estética: Reorganizadas tarjetas a falta de centrado vertical
 ```
 
+## CLONAR VERSION ESPECIFICA DEL REPOSITORIO 
+
+La version se busca a partir del release/tag , en este caso release/v5.3
+```
+git clone --recursive https://github.com/espressif/esp-idf.git -b release/v5.3 esp-idf-5.3.0
+```
+
 ## COMANDOS BASICOS GIT
 
 ```bash
