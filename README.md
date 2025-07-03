@@ -1,3 +1,5 @@
+![Banner](./assets/banner.png)
+
 ## PLANTILLA COMITS
 
 <table border="1">
