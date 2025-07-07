@@ -181,7 +181,7 @@ RAMAS
 ```bash
 git branch                                          # Lista las ramas
 git branch <nombre>                                 # Crea una nueva rama
-git checkout <rama>                                 # Cambia de rama
+git switch <rama>                                   # Cambia de rama
 git merge <rama>                                    # Fusiona una rama con la actual
 ```
 
